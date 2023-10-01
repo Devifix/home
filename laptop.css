@@ -1,0 +1,16 @@
+.lhead{
+    display: flex;
+    background-color: white;
+    margin: 20px 40px;
+    padding-left: 40px;
+}
+.lbody{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+    padding: 0px;
+    margin: 0 40px;
+    margin-top: 7px;
+    padding: 20px 50px;
+    flex-wrap: wrap;
+}

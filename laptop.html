@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeviFix</title>
+    <link rel="icon" type="image/x-icon" href="img/logo_Layer 1.png"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="laptop.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="nav">
+            <div class="l">
+                <a href="" class="navitems" id="home-btn"><i class="fa fa-bars"></i></a>
+                <a href="index.html" class="navitems"><i class="fa fa-home"></i></a>
+                <a href="#" class="navitems" id="about-btn">About</a>
+                <a href="#" id="contact-btn" class="navitems">Contact</a>
+            </div>
+            <div class="r">
+                <input id="searchbox" type="text"placeholder="Find Products">
+                <i onclick="document.getElementById('searchbox').focus();" id="searchbu" class="fa fa-search" aria-hidden="true"></i>
+            </div>
+            <div class="logo"><img src="img/logo.png" alt=""></div>
+        </nav>
+        <div class="content">
+            <div id="modal">
+                <div id="modal-content">
+                    <span id="close-btn">&times;</span>
+                    <form id="contact-form" action=""onsubmit="return validateForm()">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        <label for="subject">Subject:</label>
+                        <input type="text" id="subject" name="subject" required>
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="10" cols="30" required></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+            <div id="header">
+                <a href="phone.html">Phones</a>
+                <a href="pc.html">PC</a>
+                <a href="laptop.html">Laptop</a>
+                <a href="accessories.html">Accessories</a>
+            </div>
+            <div class="main">
+                <div class="article">
+                    <!-- put things here -->
+                    <div class="lhead">
+                        <h1>Laptop - Find Used Laptops With Cheap Price</h1>
+                    </div>
+                    <div class="lbody">
+                        <div class="frame">
+                            <div class="box">
+                                <div><img src="img/asusrogflowx16.jpeg" alt=""></div>
+
+                            </div>
+                            <h2>Rog Flow X16</h2>
+                                <h5>$2500</h5>
+                        </div>  
+                        <div class="frame">
+                            <div class="box">
+                                <div><img src="img/hpomen16.jpg" alt=""></div>
+
+                            </div>
+                            <h2>HP Omen 16</h2>
+                                <h5>$1834</h5>
+                        </div>
+                        <div class="frame">
+                            <div class="box">
+                                <div><img src="img/delllatitude5430.jpeg" alt=""></div>
+
+                            </div>
+                            <h2>Dell Latitude 5430</h2>
+                                <h5>$1069</h5>
+                        </div>
+                        <div class="frame">
+                            <div class="box">
+                                <div><img src="img/asustuff15.jpg" alt=""></div>
+
+                            </div>
+                            <h2>Asus TUF F15</h2>
+                                <h5>$1041</h5>
+                        </div>
+                        <div class="eframe">
+                            <div class="box">
+                                <div><img src="img/asusb3flip.jpg" alt=""></div>
+
+                            </div>
+                            <h2>Expertbook B3 flip</h2>
+                                <h5><del>$1650</del></h5>
+                                <H1>$1299</H1>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer" id="footer">
+                    <div class="fmain">
+                        <div class="fl"><p>Established in 2023, All Right Served</p>
+                        </div>
+
+                    </div>
+                    <div class="fr">
+                        <ul style="list-style: none;">
+                            <li>Add:77 TTNxx st., wrd TTN, dis. 12 HCM ct.</li>
+                            <li>Tel:0817XXXXXX</li>
+                            <li>Eml:lenhanXXXX@gmail.com</li>
+                            <li>Opn:7 AM - 8 PM</li>
+                        
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>

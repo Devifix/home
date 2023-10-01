@@ -1,0 +1,33 @@
+#product-details{
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+    
+}
+.product{
+    background-color: white;
+    padding: 5px;
+    
+}
+.img{
+    width: 40%;
+}
+#product-image{
+    width: 100%;
+    height: auto;
+}
+.info{
+    background-color: white;
+    padding: 5px;
+    margin-left: 10px;
+    width: 100%;
+}
+#product-name{
+    
+}
+#product-price{
+
+}
+#product-description{
+
+}
